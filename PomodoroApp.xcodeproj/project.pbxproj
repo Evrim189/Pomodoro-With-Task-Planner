@@ -11,7 +11,7 @@
 		C32419882A02DFE500856BB1 /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = C32419872A02DFE500856BB1 /* Introspect */; };
 		C324198C2A03009000856BB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C324198B2A03009000856BB1 /* AppDelegate.swift */; };
 		C324198E2A03C4CC00856BB1 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C324198D2A03C4CC00856BB1 /* NotificationManager.swift */; };
-		C38629682A051920008A98C6 /* PomodoroTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38629672A051920008A98C6 /* PomodoroTimerView.swift */; };
+		C38108682A1CDD8A00C8D4CF /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38108672A1CDD8A00C8D4CF /* CircleProgressView.swift */; };
 		C386296D2A0A4AF3008A98C6 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = C386296C2A0A4AF3008A98C6 /* FirebaseCrashlytics */; };
 		C386296F2A0A4AF3008A98C6 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = C386296E2A0A4AF3008A98C6 /* FirebaseFunctions */; };
 		C38629712A0A4DB3008A98C6 /* AnalyticsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38629702A0A4DB3008A98C6 /* AnalyticsHelper.swift */; };
@@ -20,7 +20,6 @@
 		C38629792A0BB762008A98C6 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38629782A0BB762008A98C6 /* DashboardView.swift */; };
 		C38629A02A0E44AA008A98C6 /* Spotlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C386299F2A0E44AA008A98C6 /* Spotlight.swift */; };
 		C39BD74E2A012E6E00F83501 /* PomodoroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39BD74D2A012E6E00F83501 /* PomodoroApp.swift */; };
-		C39BD7502A012E6E00F83501 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39BD74F2A012E6E00F83501 /* ContentView.swift */; };
 		C39BD7522A012E6F00F83501 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C39BD7512A012E6F00F83501 /* Assets.xcassets */; };
 		C39BD7552A012E6F00F83501 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C39BD7542A012E6F00F83501 /* Preview Assets.xcassets */; };
 		C39BD7572A012E6F00F83501 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39BD7562A012E6F00F83501 /* Persistence.swift */; };
@@ -36,14 +35,13 @@
 		C32419842A02DC4D00856BB1 /* TaskDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailView.swift; sourceTree = "<group>"; };
 		C324198B2A03009000856BB1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C324198D2A03C4CC00856BB1 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
-		C38629672A051920008A98C6 /* PomodoroTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroTimerView.swift; sourceTree = "<group>"; };
+		C38108672A1CDD8A00C8D4CF /* CircleProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
 		C38629702A0A4DB3008A98C6 /* AnalyticsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnalyticsHelper.swift; path = "../../../../projects/AnimeMaker/Anime Maker/Views/Helpers/AnalyticsHelper.swift"; sourceTree = "<group>"; };
 		C38629722A0A50C0008A98C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C38629782A0BB762008A98C6 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		C386299F2A0E44AA008A98C6 /* Spotlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spotlight.swift; sourceTree = "<group>"; };
 		C39BD74A2A012E6E00F83501 /* PomodoroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomodoroApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39BD74D2A012E6E00F83501 /* PomodoroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroApp.swift; sourceTree = "<group>"; };
-		C39BD74F2A012E6E00F83501 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C39BD7512A012E6F00F83501 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C39BD7542A012E6F00F83501 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C39BD7562A012E6F00F83501 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -131,10 +129,9 @@
 		C39BD7642A0131FE00F83501 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C39BD74F2A012E6E00F83501 /* ContentView.swift */,
 				C32419842A02DC4D00856BB1 /* TaskDetailView.swift */,
 				C38629782A0BB762008A98C6 /* DashboardView.swift */,
-				C38629672A051920008A98C6 /* PomodoroTimerView.swift */,
+				C38108672A1CDD8A00C8D4CF /* CircleProgressView.swift */,
 				C39BD7602A012EB100F83501 /* HomePage.swift */,
 				C39BD76D2A01404000F83501 /* PomodoroPage.swift */,
 			);
@@ -252,17 +249,16 @@
 				C324198C2A03009000856BB1 /* AppDelegate.swift in Sources */,
 				C39BD7612A012EB100F83501 /* HomePage.swift in Sources */,
 				C39BD75A2A012E6F00F83501 /* PomodoroApp.xcdatamodeld in Sources */,
-				C38629682A051920008A98C6 /* PomodoroTimerView.swift in Sources */,
 				C39BD7632A0131E800F83501 /* AlertManager.swift in Sources */,
 				C39BD7572A012E6F00F83501 /* Persistence.swift in Sources */,
 				C39BD76E2A01404000F83501 /* PomodoroPage.swift in Sources */,
 				C38629792A0BB762008A98C6 /* DashboardView.swift in Sources */,
 				C324198E2A03C4CC00856BB1 /* NotificationManager.swift in Sources */,
-				C39BD7502A012E6E00F83501 /* ContentView.swift in Sources */,
 				C38629A02A0E44AA008A98C6 /* Spotlight.swift in Sources */,
 				C39BD76A2A01342A00F83501 /* UIApplicationExtension.swift in Sources */,
 				C32419852A02DC4D00856BB1 /* TaskDetailView.swift in Sources */,
 				C39BD7722A01461F00F83501 /* Extensions.swift in Sources */,
+				C38108682A1CDD8A00C8D4CF /* CircleProgressView.swift in Sources */,
 				C39BD74E2A012E6E00F83501 /* PomodoroApp.swift in Sources */,
 				C38629712A0A4DB3008A98C6 /* AnalyticsHelper.swift in Sources */,
 			);
