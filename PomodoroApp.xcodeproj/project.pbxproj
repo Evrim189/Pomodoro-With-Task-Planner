@@ -15,7 +15,6 @@
 		C381086A2A1CE1BC00C8D4CF /* AppstoreReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38108692A1CE1BC00C8D4CF /* AppstoreReview.swift */; };
 		C386296D2A0A4AF3008A98C6 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = C386296C2A0A4AF3008A98C6 /* FirebaseCrashlytics */; };
 		C386296F2A0A4AF3008A98C6 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = C386296E2A0A4AF3008A98C6 /* FirebaseFunctions */; };
-		C38629712A0A4DB3008A98C6 /* AnalyticsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38629702A0A4DB3008A98C6 /* AnalyticsHelper.swift */; };
 		C38629732A0A50C0008A98C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C38629722A0A50C0008A98C6 /* GoogleService-Info.plist */; };
 		C38629752A0A5132008A98C6 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = C38629742A0A5132008A98C6 /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		C38629792A0BB762008A98C6 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38629782A0BB762008A98C6 /* DashboardView.swift */; };
@@ -30,6 +29,7 @@
 		C39BD76A2A01342A00F83501 /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39BD7692A01342A00F83501 /* UIApplicationExtension.swift */; };
 		C39BD76E2A01404000F83501 /* PomodoroPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39BD76D2A01404000F83501 /* PomodoroPage.swift */; };
 		C39BD7722A01461F00F83501 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39BD7712A01461F00F83501 /* Extensions.swift */; };
+		C3D641A82A1CFDF70093C830 /* AnalyticsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D641A72A1CFDF70093C830 /* AnalyticsHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +38,6 @@
 		C324198D2A03C4CC00856BB1 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		C38108672A1CDD8A00C8D4CF /* CircleProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
 		C38108692A1CE1BC00C8D4CF /* AppstoreReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppstoreReview.swift; sourceTree = "<group>"; };
-		C38629702A0A4DB3008A98C6 /* AnalyticsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnalyticsHelper.swift; path = "../../../../projects/AnimeMaker/Anime Maker/Views/Helpers/AnalyticsHelper.swift"; sourceTree = "<group>"; };
 		C38629722A0A50C0008A98C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C38629782A0BB762008A98C6 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		C386299F2A0E44AA008A98C6 /* Spotlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spotlight.swift; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		C39BD7692A01342A00F83501 /* UIApplicationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
 		C39BD76D2A01404000F83501 /* PomodoroPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroPage.swift; sourceTree = "<group>"; };
 		C39BD7712A01461F00F83501 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C3D641A72A1CFDF70093C830 /* AnalyticsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,13 +70,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1EC661A2DC3D5A94500978FB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		C32419812A028BF500856BB1 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,7 +84,6 @@
 			children = (
 				C39BD74C2A012E6E00F83501 /* PomodoroApp */,
 				C39BD74B2A012E6E00F83501 /* Products */,
-				1EC661A2DC3D5A94500978FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,8 +144,8 @@
 		C39BD7682A01325D00F83501 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				C38629702A0A4DB3008A98C6 /* AnalyticsHelper.swift */,
 				C38108692A1CE1BC00C8D4CF /* AppstoreReview.swift */,
+				C3D641A72A1CFDF70093C830 /* AnalyticsHelper.swift */,
 				C386299F2A0E44AA008A98C6 /* Spotlight.swift */,
 			);
 			path = Helpers;
@@ -257,6 +249,7 @@
 				C39BD76E2A01404000F83501 /* PomodoroPage.swift in Sources */,
 				C38629792A0BB762008A98C6 /* DashboardView.swift in Sources */,
 				C324198E2A03C4CC00856BB1 /* NotificationManager.swift in Sources */,
+				C3D641A82A1CFDF70093C830 /* AnalyticsHelper.swift in Sources */,
 				C381086A2A1CE1BC00C8D4CF /* AppstoreReview.swift in Sources */,
 				C38629A02A0E44AA008A98C6 /* Spotlight.swift in Sources */,
 				C39BD76A2A01342A00F83501 /* UIApplicationExtension.swift in Sources */,
@@ -264,7 +257,6 @@
 				C39BD7722A01461F00F83501 /* Extensions.swift in Sources */,
 				C38108682A1CDD8A00C8D4CF /* CircleProgressView.swift in Sources */,
 				C39BD74E2A012E6E00F83501 /* PomodoroApp.swift in Sources */,
-				C38629712A0A4DB3008A98C6 /* AnalyticsHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
