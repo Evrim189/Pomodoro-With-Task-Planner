@@ -21,16 +21,8 @@ from the Italian word for tomato, after the tomato-shaped kitchen timer Cirillo 
 ## Screens
 
 
-![Task|100](/Screens/Task.png "Task")
+![Task](/Screens/Task.png "Task" | width=100)
 
-![Dashboard](/Screens/Dashboard.png "Dashboard")
 
-![Timer](/Screens/Timer.png "Timer")
-
-![Menu](/Screens/Menu.png "Menu")
-
-![Review](/Screens/Review.png "Review")
-
-![Push](/Screens/Push.png "Push")
 
 
