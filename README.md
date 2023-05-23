@@ -19,17 +19,6 @@ from the Italian word for tomato, after the tomato-shaped kitchen timer Cirillo 
 8. Onboarding Walkthrough
 
 ## Screens
-<img src="/Screens/Home.png"  width="500">
+<img src="/Screens/Home.png"  width="200">
 
 
-![Task](/Screens/Task.png "Task")
-
-![Dashboard](/Screens/Dashboard.png "Dashboard")
-
-![Timer](/Screens/Timer.png "Timer")
-
-![Menu](/Screens/Menu.png "Menu")
-
-![Review](/Screens/Review.png "Review")
-
-![Push](/Screens/Push.png "Push")
