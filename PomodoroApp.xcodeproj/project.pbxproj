@@ -12,6 +12,7 @@
 		C324198C2A03009000856BB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C324198B2A03009000856BB1 /* AppDelegate.swift */; };
 		C324198E2A03C4CC00856BB1 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C324198D2A03C4CC00856BB1 /* NotificationManager.swift */; };
 		C38108682A1CDD8A00C8D4CF /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38108672A1CDD8A00C8D4CF /* CircleProgressView.swift */; };
+		C381086A2A1CE1BC00C8D4CF /* AppstoreReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38108692A1CE1BC00C8D4CF /* AppstoreReview.swift */; };
 		C386296D2A0A4AF3008A98C6 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = C386296C2A0A4AF3008A98C6 /* FirebaseCrashlytics */; };
 		C386296F2A0A4AF3008A98C6 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = C386296E2A0A4AF3008A98C6 /* FirebaseFunctions */; };
 		C38629712A0A4DB3008A98C6 /* AnalyticsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38629702A0A4DB3008A98C6 /* AnalyticsHelper.swift */; };
@@ -36,6 +37,7 @@
 		C324198B2A03009000856BB1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C324198D2A03C4CC00856BB1 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		C38108672A1CDD8A00C8D4CF /* CircleProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
+		C38108692A1CE1BC00C8D4CF /* AppstoreReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppstoreReview.swift; sourceTree = "<group>"; };
 		C38629702A0A4DB3008A98C6 /* AnalyticsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnalyticsHelper.swift; path = "../../../../projects/AnimeMaker/Anime Maker/Views/Helpers/AnalyticsHelper.swift"; sourceTree = "<group>"; };
 		C38629722A0A50C0008A98C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C38629782A0BB762008A98C6 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				C38629702A0A4DB3008A98C6 /* AnalyticsHelper.swift */,
+				C38108692A1CE1BC00C8D4CF /* AppstoreReview.swift */,
 				C386299F2A0E44AA008A98C6 /* Spotlight.swift */,
 			);
 			path = Helpers;
@@ -254,6 +257,7 @@
 				C39BD76E2A01404000F83501 /* PomodoroPage.swift in Sources */,
 				C38629792A0BB762008A98C6 /* DashboardView.swift in Sources */,
 				C324198E2A03C4CC00856BB1 /* NotificationManager.swift in Sources */,
+				C381086A2A1CE1BC00C8D4CF /* AppstoreReview.swift in Sources */,
 				C38629A02A0E44AA008A98C6 /* Spotlight.swift in Sources */,
 				C39BD76A2A01342A00F83501 /* UIApplicationExtension.swift in Sources */,
 				C32419852A02DC4D00856BB1 /* TaskDetailView.swift in Sources */,

@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct DashboardView: View {
+    static let lastVersionPromptedForReviewKey = "lastVersionPromptedForReview"
     @Environment(\.colorScheme) private var colorScheme
     @Environment(\.managedObjectContext)  var viewContext
     @FetchRequest(
@@ -46,8 +47,12 @@ struct DashboardView: View {
                         .frame(width:350,height: 50)
                 
             }
+        }.onAppear{
+            AppstoreReview.askReviewIfNecessary()
         }
     }
+    
+    
 }
 
 struct DashboardView_Previews: PreviewProvider {
