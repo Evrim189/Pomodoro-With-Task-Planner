@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>682355565816-jfeonoj1dh5g1qctvk796j9i2a6ldtob.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.682355565816-jfeonoj1dh5g1qctvk796j9i2a6ldtob</string>
+	<key>API_KEY</key>
+	<string>AIzaSyADAy1K0dOKyv9wu5HbnTZXKw24KAyS8iM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>682355565816</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.evrim.PomodoroApp2</string>
+	<key>PROJECT_ID</key>
+	<string>pomodoroapp-bb340</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pomodoroapp-bb340.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:682355565816:ios:8df1bed498a06b1d07870d</string>
+</dict>
+</plist>
